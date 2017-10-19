@@ -1,0 +1,210 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+/*导航开始*/
+nav{
+	width: 100%;
+	height: 100px;
+	background:#fff;
+}
+.nav-box{
+	width: 80%;
+	height: 100%;
+	margin-left:10%;
+}
+.nav-box>div{
+	width:38%;
+	height: 100%;
+	/*background: pink;*/
+	float: left;
+	font-size:26px ;
+	font-family: sans-serif;
+	line-height: 42px;
+	padding-top: 36px;
+	box-sizing: border-box;
+	text-align:right;
+	color: #c40000;
+	font-weight: bold;
+}
+.nav-box>div>span{
+	color: #ccc;
+}
+.nav-box>ul{
+	width: 52%;
+	height: 100%;
+	/*background: green;*/
+	float: right;
+	display: flex;
+	justify-content:space-around;
+	padding-top: 36px;
+	box-sizing: border-box;
+}
+.nav-box>ul>li{
+	width: 100px;
+	height: 40px;
+	border-radius: 6px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+    text-align: center;
+    line-height: 40px;
+}
+.nav-box>ul>li:nth-child(3){
+	background: #c40000;
+}
+.nav-box>ul>li:nth-child(3)>a{
+	color: #fff;
+}
+.nav-box>ul>li:hover{
+	background: #c40000;	
+}
+.nav-box>ul>li>a{
+	display: block;
+	width: 100%;
+	color: #000;
+}
+.nav-box>ul>li>a:hover{
+	color: #fff;
+}
+/*导航结束*/
+/* 头部开始 */
+header{
+	width:100%;
+	height: auto;
+	position: relative;
+	overflow:hidden;
+}
+.brand{
+	width: 100px;
+	height: 100px;
+	background: url(../img/brand.png) no-repeat center/cover;
+	position: absolute;
+	top: 33px;
+	left: 110px;
+}
+.head-box{
+	width:100%;
+	height:570px;
+	overflow:hidden;
+}
+.head-box>li{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 100%;
+}
+.head-box>li:first-child{
+	left:0;
+}
+.head-box>li>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.head-box>li>a>img{
+	width: 112%;
+}
+
+
+/* 头部结束 */
+/*蔬菜展示开始*/
+.show{
+	width: 100%;
+	height: 710px;
+	background: #fff;
+}
+
+.show-box{
+	width: 80%;
+	height: 100%;
+	margin:0 auto;
+	/*background: yellow;*/
+	padding-top: 136px;
+	box-sizing: border-box;
+}
+#show1{
+	height: 574px;
+}
+#show1>.show-box{
+	padding-top: 0;
+}
+.show-cont{
+	width: 100%;
+	height:435px ;
+	/*background: pink;*/
+	display: flex;
+	justify-content: space-around;
+	margin-top: 73px;
+}
+.show-cont>li{
+	width: 24%;
+	height: 87%;
+	/*background: blue;*/
+	position: relative;
+	
+}
+.show-img{
+	display: block;
+	width: 100%;
+	height: 256px;
+	/*background: red;*/
+	overflow: hidden;
+}
+.show-img>img{
+	width: 100%;
+}
+.show-desc{
+	width: 100%;
+	text-align: center;
+	line-height: 48px;
+	color:#949494;
+	font-size:14px ;
+	margin-top: 20px;
+}
+.show-price{
+	width: 100%;
+	text-align: center;
+	line-height: 44px;
+	color:#c40000;
+	font-size:20px ;
+}
+.show-xian{
+	width: 100%;
+	height: 0;
+	border-bottom:1px dashed #949494;
+}
+.good-title{
+	width:100% ;
+	font-size: 24px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	color: #000;
+}
+.zhezhao{
+	width: 100%;
+	height: 256px;
+	position: absolute;
+	top: 0;
+	left: 0;	
+}
+.zhezhao:hover{
+	background: url(../img/zhezhao.png) no-repeat center;
+	background-size: 60px 60px;
+	cursor: pointer;
+}
+/*蔬菜展示结束*/
+/*底部*/
+footer{
+	width: 100%;
+	height: 110px;
+	background: #2b2b2b;
+	font-size: 20px;
+	font-family: sans-serif;
+	line-height: 110px;
+	color: #4d4d4d;
+	text-align: center;
+}
